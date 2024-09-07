@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+  <header>
+    <nav class="navBar">
+      <div class="left-nav">
+        <a href="index.html"><h3>Rubesh's Portfolio</h3></a>
+      </div>
+      <div class="right-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        
+      </div>
+    </nav>
+  </header>
+<main class="p-details">
+  <h1>My Projects:</h1>
+  <section class="project">
+    <div class="details">
+      <h2>Ecommerce Website</h2>
+      <p>Developed a responsive website using HTML and CSS for
+        front-end development and PHP for back-end
+        development.Implemented features such as navigation bar, login
+        page, registration, image and many more.</p>
+        <h3>Links:</h3>
+        
+        <p><strong>GitHub:</strong><a href="https://github.com/rubeshresthaa/E-commerce-Website" target="_blank">https://github.com/rubeshresthaa/E-commerce-Website</a></p>
+    </div>
+    <div class="details">
+      <h2>Demo Project</h2>
+      <p>Developed a responsive website using HTML and CSS for
+        front-end development.</p>
+        <h3>Links:</h3>
+        <p><strong>GitHub:</strong><a href='https://github.com/rubeshresthaa/Microsoft' target="_blank">https://github.com/rubeshresthaa/Microsoft</a></p>
+    </div>
+    <div class="details">
+      <h2>Todo List</h2>
+      <p>Developed a Todo List using ReachJs where we can add the task and tick the following task after completing.</p>
+        <h3>Links:</h3>
+        <p><strong>GitHub:</strong><a href='https://github.com/rubeshresthaa/Todo-List' target="_blank">https://github.com/rubeshresthaa/Todo-List</a></p>
+    </div>
+
+  </section>
+</main>
+  <script>
+    const rev=ScrollReveal(
+      {
+        distance: '20%',
+        delay: 200
+      }
+    )
+    rev.reveal('.details', {origin:'top',interval:200,distance:'50%'});
+
+  </script>
+  
+</body>
+</html>
